@@ -42,9 +42,9 @@ function verificaListe(){
     }
 } 
 
-setTimeout(noneDisplay, 30000);
+setTimeout(noneDisplay, 10000);
 
-setTimeout(blockDisplay, 30000);
+setTimeout(blockDisplay, 10000);
 
 
 function noneDisplay(){
