@@ -15,7 +15,7 @@ function getNumeroRandom(min, max) {
 while (arrayNumeriRandom.length < 6) {
     numeroRandom = getNumeroRandom
     while (arrayNumeriRandom.includes(numeroRandom)) {
-        numeroRandom = Math.floor(Math.random() * 49) + 1;
+        numeroRandom = Math.floor(Math.random() * 100) + 1;
     }
     arrayNumeriRandom.push(numeroRandom);
 }
